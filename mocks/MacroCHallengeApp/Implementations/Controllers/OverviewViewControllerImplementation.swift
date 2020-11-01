@@ -80,6 +80,9 @@ class OverviewViewControllerImplementation: UIViewController, OverviewViewContro
     }
     
     func hasEnded() {
+		print(data)
+		print(questionsAnswered)
+		print(timeText)
         DispatchQueue.main.async {
             self.timer?.invalidate()
         }
