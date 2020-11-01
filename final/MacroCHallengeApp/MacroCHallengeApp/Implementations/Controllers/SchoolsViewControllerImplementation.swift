@@ -48,6 +48,8 @@ class SchoolsViewControllerImplementation: UIViewController, SchoolsViewControll
 
 	// MARK: - SchoolViewControllerProtocol methods
 	func schoolWasSubmitted(_ school: School) {
+		print("------------------")
+		print("clicou na prova")
 		if let navController = self.navigationController {
 			let schoolViewController = SchoolViewControllerImplementation(data: school)
 			navController.pushViewController(schoolViewController, animated: true)

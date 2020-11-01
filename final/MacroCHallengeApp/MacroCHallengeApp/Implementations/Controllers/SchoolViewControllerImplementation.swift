@@ -17,6 +17,8 @@ class SchoolViewControllerImplementation: UIViewController, SchoolViewController
 	// MARK: - Init methods
 	required init(data: School) {
 		self.data = data
+		print("--------")
+		print("data foi")
 		super.init(nibName: nil, bundle: nil)
 	}
 

@@ -117,6 +117,9 @@
 		C465A16B2543209F00805BC7 /* QuestionImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF6BFB252F62800015DFE7 /* QuestionImageTableViewCell.swift */; };
 		C48FBA8C252D963E00A3CF8D /* SchoolsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C48FBA8B252D963E00A3CF8D /* SchoolsTableViewCell.xib */; };
 		C48FBA91252D965700A3CF8D /* SchoolsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48FBA90252D965700A3CF8D /* SchoolsTableViewCell.swift */; };
+		C4D8B1D5254F6E8E00081F10 /* SchoolViewImplementation.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4D8B1D4254F6E8E00081F10 /* SchoolViewImplementation.xib */; };
+		C4D8B1D6254F6E8E00081F10 /* SchoolViewImplementation.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4D8B1D4254F6E8E00081F10 /* SchoolViewImplementation.xib */; };
+		C4D8B1D7254F6E8E00081F10 /* SchoolViewImplementation.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4D8B1D4254F6E8E00081F10 /* SchoolViewImplementation.xib */; };
 		C4F885BD252F5807008FF2A0 /* OverviewCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F885BC252F5807008FF2A0 /* OverviewCollectionCell.xib */; };
 		C4F885C2252F581D008FF2A0 /* OverviewCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F885C1252F581D008FF2A0 /* OverviewCollectionCell.swift */; };
 		D5276859252CB305003F0C70 /* MockSchoolsImplementationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5276858252CB305003F0C70 /* MockSchoolsImplementationTests.swift */; };
@@ -177,8 +180,6 @@
 		D586B588252C02EC00F4DF76 /* SchoolViewControllerImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586B586252C02EC00F4DF76 /* SchoolViewControllerImplementation.swift */; };
 		D586B590252C064D00F4DF76 /* SchoolViewImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586B58F252C064D00F4DF76 /* SchoolViewImplementation.swift */; };
 		D586B591252C064D00F4DF76 /* SchoolViewImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586B58F252C064D00F4DF76 /* SchoolViewImplementation.swift */; };
-		D586B596252C0AF700F4DF76 /* SchoolViewImplementation.xib in Resources */ = {isa = PBXBuildFile; fileRef = D586B595252C0AF700F4DF76 /* SchoolViewImplementation.xib */; };
-		D586B597252C0AF700F4DF76 /* SchoolViewImplementation.xib in Resources */ = {isa = PBXBuildFile; fileRef = D586B595252C0AF700F4DF76 /* SchoolViewImplementation.xib */; };
 		D586B5A4252C9ADC00F4DF76 /* MockSchoolsImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586B55D252BE77000F4DF76 /* MockSchoolsImplementation.swift */; };
 		D59A37602535DC7500AD14F1 /* ResultsViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59A375F2535DC7500AD14F1 /* ResultsViewControllerProtocol.swift */; };
 		D59A37612535DC7500AD14F1 /* ResultsViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59A375F2535DC7500AD14F1 /* ResultsViewControllerProtocol.swift */; };
@@ -325,6 +326,7 @@
 		C465A07A25429D9700805BC7 /* ConverterQuestionsJSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterQuestionsJSONTests.swift; sourceTree = "<group>"; };
 		C48FBA8B252D963E00A3CF8D /* SchoolsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SchoolsTableViewCell.xib; sourceTree = "<group>"; };
 		C48FBA90252D965700A3CF8D /* SchoolsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsTableViewCell.swift; sourceTree = "<group>"; };
+		C4D8B1D4254F6E8E00081F10 /* SchoolViewImplementation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SchoolViewImplementation.xib; path = ../../../../../../mocks/MacroCHallengeApp/Implementations/Views/School/SchoolViewImplementation.xib; sourceTree = "<group>"; };
 		C4F885BC252F5807008FF2A0 /* OverviewCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverviewCollectionCell.xib; sourceTree = "<group>"; };
 		C4F885C1252F581D008FF2A0 /* OverviewCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewCollectionCell.swift; sourceTree = "<group>"; };
 		D5276858252CB305003F0C70 /* MockSchoolsImplementationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSchoolsImplementationTests.swift; sourceTree = "<group>"; };
@@ -357,7 +359,6 @@
 		D586B57D252BFEEA00F4DF76 /* QuestionViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewProtocol.swift; sourceTree = "<group>"; };
 		D586B586252C02EC00F4DF76 /* SchoolViewControllerImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewControllerImplementation.swift; sourceTree = "<group>"; };
 		D586B58F252C064D00F4DF76 /* SchoolViewImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewImplementation.swift; sourceTree = "<group>"; };
-		D586B595252C0AF700F4DF76 /* SchoolViewImplementation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SchoolViewImplementation.xib; sourceTree = "<group>"; };
 		D59A375F2535DC7500AD14F1 /* ResultsViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewControllerProtocol.swift; sourceTree = "<group>"; };
 		D59A37652535DE7F00AD14F1 /* ResultsViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewProtocol.swift; sourceTree = "<group>"; };
 		D59A376B2535DF8100AD14F1 /* ResultsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsData.swift; sourceTree = "<group>"; };
@@ -674,7 +675,7 @@
 			isa = PBXGroup;
 			children = (
 				D586B58F252C064D00F4DF76 /* SchoolViewImplementation.swift */,
-				D586B595252C0AF700F4DF76 /* SchoolViewImplementation.xib */,
+				C4D8B1D4254F6E8E00081F10 /* SchoolViewImplementation.xib */,
 				2FF53928252CBEF200C0107B /* TestTableViewCell.swift */,
 				2FF53929252CBEF200C0107B /* TestTableViewCell.xib */,
 				2FF53931252E291500C0107B /* NoticeTableViewCell.swift */,
@@ -853,8 +854,8 @@
 				D565EEEF252B813700426648 /* Main.storyboard in Resources */,
 				2F9A67EB253A021B002EE9B2 /* HeaderCollectionReusableView.xib in Resources */,
 				2FF53935252E291500C0107B /* NoticeTableViewCell.xib in Resources */,
-				D586B596252C0AF700F4DF76 /* SchoolViewImplementation.xib in Resources */,
 				2F9A67E1253780A5002EE9B2 /* ProgressBarTableViewCell.xib in Resources */,
+				C4D8B1D5254F6E8E00081F10 /* SchoolViewImplementation.xib in Resources */,
 				C4F885BD252F5807008FF2A0 /* OverviewCollectionCell.xib in Resources */,
 				2F1FCF132541B5950040169E /* NoticeViewImplementation.xib in Resources */,
 				C48FBA8C252D963E00A3CF8D /* SchoolsTableViewCell.xib in Resources */,
@@ -869,9 +870,9 @@
 				2FF5392D252CBEF200C0107B /* TestTableViewCell.xib in Resources */,
 				2F9A67D12535FB37002EE9B2 /* PieChartTableViewCell.xib in Resources */,
 				2FF53936252E291500C0107B /* NoticeTableViewCell.xib in Resources */,
-				D586B597252C0AF700F4DF76 /* SchoolViewImplementation.xib in Resources */,
 				C460D9BC2548779D008711F3 /* HistoricViewImplementation.xib in Resources */,
 				D565EF59252BAF9100426648 /* SchoolsViewImplementation.xib in Resources */,
+				C4D8B1D6254F6E8E00081F10 /* SchoolViewImplementation.xib in Resources */,
 				2F9A67C82535F46F002EE9B2 /* ResultsViewImplementation.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -880,6 +881,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4D8B1D7254F6E8E00081F10 /* SchoolViewImplementation.xib in Resources */,
 				C460D9BD2548779D008711F3 /* HistoricViewImplementation.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

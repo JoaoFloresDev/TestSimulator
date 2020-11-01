@@ -25,6 +25,8 @@ class SchoolsViewImplementation: UIView, SchoolsViewProtocol {
 		initFromNib()
 
 		setupDelegateTableview()
+		print("------------------")
+		print("deu certo até aqui")
 	}
 
 	required init?(coder: NSCoder) {
