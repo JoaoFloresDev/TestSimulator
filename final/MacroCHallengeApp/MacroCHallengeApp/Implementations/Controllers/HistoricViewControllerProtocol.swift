@@ -15,7 +15,7 @@ protocol HistoricViewControllerProtocol {
 	- parameter school: Prova selecionada pela View.
 
 	*/
-	func testWasSubmitted(_ test: TestHeader)
+	func testWasSubmitted(_ test: Test)
 
 	// Dependências
 	var myHistoricView: HistoricViewProtocol? {get set}
